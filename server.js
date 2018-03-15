@@ -1,7 +1,7 @@
 var app = require("express")();
 
 var server = app.listen(process.env.PORT, function() {
-    console.log("Server on")
+    console.log("Server Online!")
 })
 
 var io = require("socket.io")(server);
